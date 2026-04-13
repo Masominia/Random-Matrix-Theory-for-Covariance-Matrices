@@ -1,0 +1,34 @@
+config,q,estimator,realised vol %,predicted vol %,gross leverage,realised / predicted,vol vs sample %
+"N = 100, T = 500",0.2,Sample covariance,20.868,10.9873,2.9049,1.8993,0.0
+"N = 100, T = 500",0.2,Linear shrinkage (Ledoit-Wolf),20.4918,11.3903,2.5782,1.7991,-1.803
+"N = 100, T = 500",0.2,Eigenvalue clipping (Marchenko-Pastur),20.6031,12.0402,2.258,1.7112,-1.2697
+"N = 100, T = 500",0.2,Rotationally invariant estimator,20.3013,11.8331,2.3931,1.7156,-2.7157
+"N = 100, T = 500",0.2,Cross-validated eigenvalues,20.1509,12.085,2.1867,1.6674,-3.4366
+"N = 100, T = 500",0.2,Equal weight (no covariance),29.1446,,1.0,,39.6615
+"N = 200, T = 500",0.4,Sample covariance,21.1929,8.0224,4.2726,2.6417,0.0
+"N = 200, T = 500",0.4,Linear shrinkage (Ledoit-Wolf),19.9605,8.8018,3.4192,2.2678,-5.8153
+"N = 200, T = 500",0.4,Eigenvalue clipping (Marchenko-Pastur),19.6,9.6871,2.5837,2.0233,-7.5162
+"N = 200, T = 500",0.4,Rotationally invariant estimator,19.1574,9.8319,2.6997,1.9485,-9.6046
+"N = 200, T = 500",0.4,Cross-validated eigenvalues,19.1209,9.9526,2.4478,1.9212,-9.7771
+"N = 200, T = 500",0.4,Equal weight (no covariance),29.7816,,1.0,,40.5262
+"N = 300, T = 500",0.6,Sample covariance,21.2968,5.4466,5.8335,3.9101,0.0
+"N = 300, T = 500",0.6,Linear shrinkage (Ledoit-Wolf),19.4726,6.8677,4.0768,2.8354,-8.5657
+"N = 300, T = 500",0.6,Eigenvalue clipping (Marchenko-Pastur),19.4842,8.2288,2.8144,2.3678,-8.5111
+"N = 300, T = 500",0.6,Rotationally invariant estimator,18.8995,8.4434,3.0175,2.2384,-11.2565
+"N = 300, T = 500",0.6,Cross-validated eigenvalues,19.0552,8.6728,2.6693,2.1971,-10.5254
+"N = 300, T = 500",0.6,Equal weight (no covariance),30.0675,,1.0,,41.1828
+"N = 450, T = 500",0.9,Sample covariance,30.8667,2.2903,13.2003,13.4771,0.0
+"N = 450, T = 500",0.9,Linear shrinkage (Ledoit-Wolf),17.6596,4.8601,4.6579,3.6336,-42.7877
+"N = 450, T = 500",0.9,Eigenvalue clipping (Marchenko-Pastur),16.4942,6.5646,2.8565,2.5126,-46.5633
+"N = 450, T = 500",0.9,Rotationally invariant estimator,16.3468,6.8352,2.9658,2.3916,-47.0408
+"N = 450, T = 500",0.9,Cross-validated eigenvalues,16.3329,6.9601,2.7249,2.3466,-47.0859
+"N = 450, T = 500",0.9,Equal weight (no covariance),29.1979,,1.0,,-5.4066
+"N = 300, T = 250",1.2,Sample covariance,29.2359,3.4729,8.2506,8.4184,0.0
+"N = 300, T = 250",1.2,Linear shrinkage (Ledoit-Wolf),18.4023,4.9046,3.7523,3.7521,-37.0558
+"N = 300, T = 250",1.2,Eigenvalue clipping (Marchenko-Pastur),17.6434,6.7136,2.4085,2.628,-39.6516
+"N = 300, T = 250",1.2,Cross-validated eigenvalues,17.5363,7.1303,2.3222,2.4594,-40.018
+"N = 300, T = 250",1.2,Equal weight (no covariance),29.1277,,1.0,,-0.3701
+"N = 750, T = 500",1.5,Sample covariance,19.8969,4.4249,7.559,4.4966,0.0
+"N = 750, T = 500",1.5,Linear shrinkage (Ledoit-Wolf),16.025,3.2222,5.1554,4.9732,-19.4598
+"N = 750, T = 500",1.5,Eigenvalue clipping (Marchenko-Pastur),15.4132,5.4659,3.1339,2.8199,-22.5345
+"N = 750, T = 500",1.5,Equal weight (no covariance),29.3908,,1.0,,47.7156
