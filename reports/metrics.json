@@ -1,0 +1,215 @@
+{
+  "noise": {
+    "q": 0.4,
+    "ks": 0.0059526284556968845,
+    "edges": [
+      0.13508893593264826,
+      2.6649110640673523
+    ],
+    "min": 0.13585182709033503,
+    "max": 2.6161539003786114
+  },
+  "planted": {
+    "error of the inverse matrix vs truth": {
+      "Sample covariance": 2.214515660578757,
+      "Linear shrinkage (Ledoit-Wolf)": 1.751508307406112,
+      "Eigenvalue clipping (Marchenko-Pastur)": 0.19622272771742735,
+      "Rotationally invariant estimator": 0.2242356569147576,
+      "Cross-validated eigenvalues": 0.213706031760824,
+      "oracle (uses the truth)": 0.21298334743151606
+    },
+    "true risk of the min-variance portfolio / best possible": {
+      "Sample covariance": 1.4433262607491653,
+      "Linear shrinkage (Ledoit-Wolf)": 1.3639399707644109,
+      "Eigenvalue clipping (Marchenko-Pastur)": 1.1448020882832544,
+      "Rotationally invariant estimator": 1.0990774120112885,
+      "Cross-validated eigenvalues": 1.11029542677705,
+      "oracle (uses the truth)": 1.1030635685388621
+    }
+  },
+  "spectrum": {
+    "assets": 450,
+    "days": 500,
+    "q": 0.9,
+    "Marchenko-Pastur upper edge": 3.7973665961010274,
+    "eigenvalues above the edge": 8,
+    "share of eigenvalues inside the noise band %": 98.22222222222223,
+    "largest eigenvalue (market mode)": 109.48534519938552,
+    "variance explained by the market mode %": 24.33007671097456,
+    "smallest eigenvalue": 0.0009311438647539161,
+    "participation of the market mode (1 = all stocks equally)": 0.735191996811938
+  },
+  "oos": {
+    "days": 861,
+    "first_day": "2019-12-30",
+    "last_day": "2023-05-31",
+    "vol_table": {
+      "N = 100, T = 500 (q = 0.2)": {
+        "Sample covariance": 20.868024049403296,
+        "Linear shrinkage (Ledoit-Wolf)": 20.491777225212086,
+        "Eigenvalue clipping (Marchenko-Pastur)": 20.603065021697052,
+        "Rotationally invariant estimator": 20.3013135856072,
+        "Cross-validated eigenvalues": 20.150871783789466,
+        "Equal weight (no covariance)": 29.144585464641658
+      },
+      "N = 200, T = 500 (q = 0.4)": {
+        "Sample covariance": 21.192923724262002,
+        "Linear shrinkage (Ledoit-Wolf)": 19.960485708408868,
+        "Eigenvalue clipping (Marchenko-Pastur)": 19.600025199114864,
+        "Rotationally invariant estimator": 19.157419262292034,
+        "Cross-validated eigenvalues": 19.120880071467518,
+        "Equal weight (no covariance)": 29.781609086227856
+      },
+      "N = 300, T = 500 (q = 0.6)": {
+        "Sample covariance": 21.296825863303727,
+        "Linear shrinkage (Ledoit-Wolf)": 19.472595092235558,
+        "Eigenvalue clipping (Marchenko-Pastur)": 19.484235307574004,
+        "Rotationally invariant estimator": 18.899543598331604,
+        "Cross-validated eigenvalues": 19.055245328575477,
+        "Equal weight (no covariance)": 30.067453453453275
+      },
+      "N = 450, T = 500 (q = 0.9)": {
+        "Sample covariance": 30.866716435801926,
+        "Linear shrinkage (Ledoit-Wolf)": 17.659560912199908,
+        "Eigenvalue clipping (Marchenko-Pastur)": 16.494157771896788,
+        "Rotationally invariant estimator": 16.34675690832669,
+        "Cross-validated eigenvalues": 16.33285128270252,
+        "Equal weight (no covariance)": 29.197890670568878
+      },
+      "N = 300, T = 250 (q = 1.2)": {
+        "Sample covariance": 29.23592638084912,
+        "Linear shrinkage (Ledoit-Wolf)": 18.40232579744059,
+        "Eigenvalue clipping (Marchenko-Pastur)": 17.643425014171036,
+        "Rotationally invariant estimator": null,
+        "Cross-validated eigenvalues": 17.5363010103233,
+        "Equal weight (no covariance)": 29.12772874105275
+      },
+      "N = 750, T = 500 (q = 1.5)": {
+        "Sample covariance": 19.896865730171758,
+        "Linear shrinkage (Ledoit-Wolf)": 16.024985338356206,
+        "Eigenvalue clipping (Marchenko-Pastur)": 15.413198251645321,
+        "Rotationally invariant estimator": null,
+        "Cross-validated eigenvalues": null,
+        "Equal weight (no covariance)": 29.390780582386977
+      }
+    },
+    "headline": {
+      "Sample covariance": {
+        "realised vol %": 30.866716435801926,
+        "vol vs sample %": 0.0,
+        "predicted vol %": 2.2903062772469758,
+        "realised / predicted": 13.47711297063061,
+        "gross leverage": 13.200333147778124
+      },
+      "Linear shrinkage (Ledoit-Wolf)": {
+        "realised vol %": 17.659560912199908,
+        "vol vs sample %": -42.78769188511157,
+        "predicted vol %": 4.86007854445061,
+        "realised / predicted": 3.6335957846533464,
+        "gross leverage": 4.657865603788826
+      },
+      "Eigenvalue clipping (Marchenko-Pastur)": {
+        "realised vol %": 16.494157771896788,
+        "vol vs sample %": -46.56328992362331,
+        "predicted vol %": 6.564586280961264,
+        "realised / predicted": 2.5125966916960865,
+        "gross leverage": 2.856531472360679
+      },
+      "Rotationally invariant estimator": {
+        "realised vol %": 16.34675690832669,
+        "vol vs sample %": -47.04082974836194,
+        "predicted vol %": 6.83517275817007,
+        "realised / predicted": 2.391564556841294,
+        "gross leverage": 2.9658029650428044
+      },
+      "Cross-validated eigenvalues": {
+        "realised vol %": 16.33285128270252,
+        "vol vs sample %": -47.0858802986953,
+        "predicted vol %": 6.960135528111605,
+        "realised / predicted": 2.346628340315362,
+        "gross leverage": 2.724867416557664
+      },
+      "Equal weight (no covariance)": {
+        "realised vol %": 29.197890670568878,
+        "vol vs sample %": -5.406554236839389,
+        "predicted vol %": null,
+        "realised / predicted": null,
+        "gross leverage": 1.0
+      }
+    },
+    "variance_test_sample_vs_best": [
+      [
+        4.407473914789236,
+        5.890191682867561e-06
+      ],
+      [
+        4.586822988531209,
+        2.5844468513436506e-06
+      ],
+      [
+        6.723625384518287,
+        1.6140062021612076e-11
+      ]
+    ],
+    "best": "RIE",
+    "lw_intensity": 0.061812424250787784
+  },
+  "checks": [
+    {
+      "area": "Theory",
+      "check": "pure noise: distance between the eigenvalue distribution and Marchenko-Pastur (KS)",
+      "value": 0.0059526284556968845,
+      "threshold": "< 0.03",
+      "status": "PASS"
+    },
+    {
+      "area": "Theory",
+      "check": "pure noise: largest eigenvalue vs the Marchenko-Pastur edge (ratio)",
+      "value": 0.9817040184394279,
+      "threshold": "0.97 to 1.05",
+      "status": "PASS"
+    },
+    {
+      "area": "Theory",
+      "check": "known truth: RIE portfolio risk within 3% of the oracle that sees the true matrix",
+      "value": 0.9963862857578972,
+      "threshold": "< 1.03",
+      "status": "PASS"
+    },
+    {
+      "area": "Theory",
+      "check": "known truth: RIE portfolio risk vs the sample matrix (ratio)",
+      "value": 0.7614892362873016,
+      "threshold": "< 0.85",
+      "status": "PASS"
+    },
+    {
+      "area": "Portfolio",
+      "check": "headline: Rotationally invariant estimator cuts realised volatility vs the sample covariance (%)",
+      "value": -47.04082974836194,
+      "threshold": "< -20",
+      "status": "PASS"
+    },
+    {
+      "area": "Portfolio",
+      "check": "headline: variance reduction is significant in every universe (largest p-value)",
+      "value": 5.890191682867561e-06,
+      "threshold": "< 0.01",
+      "status": "PASS"
+    },
+    {
+      "area": "Portfolio",
+      "check": "cleaning reduces risk underestimation (realised / predicted, cleaned vs sample)",
+      "value": 0.17745377382032806,
+      "threshold": "< 0.5",
+      "status": "PASS"
+    },
+    {
+      "area": "Portfolio",
+      "check": "no cleaner hurts when data are plentiful (q = 0.2, worst change vs sample, %)",
+      "value": -1.2696891046271364,
+      "threshold": "< 3",
+      "status": "PASS"
+    }
+  ]
+}
